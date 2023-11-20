@@ -3,8 +3,11 @@
 
 ### Como Executar:
 - Será necessário abrir 3 terminais na sua máquina, e rodar o seguinte comando, em cada terminal:
+  
     1.`go run chatNBAC.go 127.0.0.1:5001  127.0.0.1:6001 127.0.0.1:7001`
+  
     2.`go run chatNBAC.go 127.0.0.1:6001  127.0.0.1:5001 127.0.0.1:7001`
+  
     3.`go run chatNBAC.go 127.0.0.1:7001  127.0.0.1:5001 127.0.0.1:6001`
 
 ### Casos de Teste:
